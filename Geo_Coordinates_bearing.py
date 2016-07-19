@@ -46,7 +46,7 @@ def cal_bearing(lat1,long1,lat2,long2):
     
     
     return bearing
-print ("Enter values in decimals (float) degrees form only \n")
+print ("Enter values in decimals (float) degrees form only \n (-) for south or west) \n")
 lat1= float (input ("Lat. For Point 1 : "))
 long1= float (input ("Long. For Point 1 : "))
 lat2= float (input ("Lat. For Point 2 : "))
