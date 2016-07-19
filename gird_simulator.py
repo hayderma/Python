@@ -22,20 +22,13 @@ def cal_bearing(lat1,long1,lat2,long2):
     
     
     return bearing
-angle=270  
 
-lat1= 30.894722
-long1= -97.900556
 
-i=0;
-lat2= lat1
-long2=long1
-while (250>i):
-    lat2+=0.00131
-    long2-=0.00131
-    #adj()
-    #time.sleep(2)
-    i+=1
+lat1= float (input ("Enter Lat. For Point 1 : "))
+long1= float (input ("Enter Long. For Point 1 : "))
+lat2= float (input ("Enter Lat. For Point 2 : "))
+long2= float (input ("Enter Long. For Point 2 : "))
+
 
 print("coord1 = ",lat1 ,long1,"\n coor2 = ",lat2,long2)
 angle = cal_bearing(lat1,long1,lat2,long2)
