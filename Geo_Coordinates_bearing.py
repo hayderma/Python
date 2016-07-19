@@ -3,9 +3,11 @@ import time, math
 
 '''
 Author Hayder MA
-Python 3.X compatiable, program gives bearing in Degrees(and Rad.)
-between two Geo-Points, write another script to get values from here
-and adjust angle when needed
+Python 3.X compatiable program 
+gives bearing in Degrees(and Rad.)
+between two Geo-Points
+write another script to get values from here
+then adjust angle when needed
 '''
 def direction (angle):
     d = ""
