@@ -1,6 +1,3 @@
-import time, math
-
-
 '''
 Author Hayder MA
 Python 3.X compatiable program 
@@ -9,6 +6,11 @@ between two Geo-Points
 write another script to get values from here
 then adjust angle when needed
 '''
+import time, math
+
+
+
+
 def direction (angle):
     d = ""
     if (angle > 0 and angle < 90):
