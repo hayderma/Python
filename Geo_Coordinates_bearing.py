@@ -1,5 +1,5 @@
 '''
-Author Hayder MA
+Author Haider MA
 Python 3.X compatiable program 
 gives bearing in Degrees(and Rad.)
 between two Geo-Points
